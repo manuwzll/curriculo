@@ -1,0 +1,61 @@
+
+body{
+    font-size:20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(173, 161, 143);
+}
+header .profile img{
+    width: 130px; /* largura*/
+    height: 160px;/*altura*/
+    border-radius: 50%;
+    padding: 20%;
+}
+
+header .links a{
+    text-decoration: nome;
+    color:rgb(39, 37, 35);
+    font-weight: bold;
+    margin: 0 10px;
+
+}
+.descricao{
+    text-align: center;
+    margin:20px;
+
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.bloco{
+    width: 30%;
+    background-color: rgb(173, 161, 143);
+    padding: 15px;
+   border: 1px solid snow;
+   border-radius: 10px;
+
+}
+.falacomigo{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid snow;
+    border-radius: 8px;
+}
